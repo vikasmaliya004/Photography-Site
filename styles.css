@@ -1,1 +1,126 @@
-
+    body {
+        background-color: rgb(166, 177, 165);
+        color: rgb(81, 81, 105);
+        height: auto;
+        margin: 0;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        margin-top: 50px;
+    }
+    
+    h2 {
+        font-weight: 400;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        margin: 0px;
+    }
+    
+    #img1 {
+        float: right;
+        width: 50%;
+        height: 300px;
+    }
+    
+    #text-side {
+        float: left;
+        width: 50%;
+        color: black;
+        text-align: center;
+    }
+    
+    #text-side h2 {
+        color: black;
+        text-align: center;
+    }
+    
+    main {
+        max-width: 900px;
+        margin: auto;
+        box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1);
+    }
+    
+    .total {
+        background: rgb(252, 245, 245);
+    }
+    
+    .head-text h2 {
+        color: rgb(199, 187, 187);
+    }
+    
+    .btn {
+        padding: 0.5rem 2rem;
+        border: 1px #ccc solid;
+        display: inline-block;
+        margin: 5rem 0 0;
+        border-radius: 50px;
+        text-decoration: none;
+        color: rgb(80, 57, 57);
+        justify-content: center;
+        /* transition: 500ms ease; */
+    }
+    
+    .btn:hover {
+        background: #f4f4f4;
+    }
+    
+    #header {
+        padding: 1.5rem;
+        text-align: center;
+        background: rgb(24, 9, 9);
+        color: #fff;
+        clear: both;
+    }
+    
+    #header h2 {
+        border-left: dotted 1px #fff;
+        border-right: dotted 1px #fff;
+        display: inline-block;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    
+    .left-side {
+        color: black;
+        text-align: center;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 2rem 1rem;
+        margin: auto;
+        color: #333;
+    }
+    
+    footer h3 {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+    /* Screen Sizes 500px and Up */
+    
+    @media screen and (max-width: 500px) {
+        #total {
+            display: flex;
+            height: 100%;
+        }
+        #text-side {
+            width: 100%;
+        }
+        #img1 {
+            width: 100%;
+        }
+    }
+    /* Screen Sizes 700px and Up */
+    
+    @media (max-width: 500px) {
+        .btn {
+            padding: 1rem;
+            margin: 20px;
+        }
+    }
